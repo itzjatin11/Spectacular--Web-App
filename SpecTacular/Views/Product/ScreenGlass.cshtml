@@ -1,0 +1,29 @@
+﻿@model List<SpecTacular.Models.Product>
+
+@{
+    ViewData["Title"] = "Screenglasses Collection";
+}
+
+<div class="container text-center">
+    <h2 class="fw-bold my-4">Screenglasses Collection</h2>
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3">
+                <div class="card shadow-sm">
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">$@product.Price</p>
+                        <button class="btn btn-primary add-to-cart"
+                                data-name="@product.Name" data-price="@product.Price">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script src="~/js/cart.js"></script>

@@ -1,0 +1,144 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .fade-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+        .fade-in.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    .card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+    .hero img {
+        transform: scale(1.2);
+        opacity: 0.6;
+        filter: blur(2px);
+        transition: transform 3s ease-in-out, opacity 3s ease-in-out, filter 2s ease-in-out;
+    }
+
+        .hero img.loaded {
+            transform: scale(1);
+            opacity: 1;
+            filter: blur(0);
+        }
+
+    .hero-text {
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+        letter-spacing: 2px;
+        transition: opacity 1.5s ease-in-out, transform 1s ease-in-out;
+        text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+    }
+
+        .hero-text.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    .btn-animated {
+        position: relative;
+        overflow: hidden;
+        font-weight: 700;
+        border-radius: 30px;
+        padding: 12px 30px;
+        background: rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .row .col-md-4 img {
+        height: 250px;
+        object-fit: cover;
+    }
+</style>
+
+<div class="hero position-relative">
+    <img id="hero-image" src="~/images/cover.jpg" alt="Sunglasses Banner" class="img-fluid w-100" style="height: 500px; object-fit: cover;">
+    <div class="hero-text position-absolute top-50 start-50 translate-middle text-white text-center fade-in">
+        <h1 class="display-2">SpecTacular</h1>
+        <p class="lead">Find the perfect shades for every occasion.</p>
+        <a href="/Shop/Eyeglass" class="btn btn-lg btn-primary mt-3 btn-animated">Shop Now</a>
+    </div>
+</div>
+
+<section class="container text-center my-5 fade-in">
+    <h2 class="fw-bold mb-4">Top-Selling Sunglasses</h2>
+    <div class="row">
+        <div class="col-md-4 fade-in">
+            <div class="card shadow">
+                <img src="~/images/aviators.jpg" class="card-img-top" alt="Sunglasses 1">
+                <div class="card-body">
+                    <h5 class="card-title">Classic Aviators</h5>
+                    <p class="card-text">$49.99</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 fade-in">
+            <div class="card shadow">
+                <img src="~/images/sunglasses2.jpg" class="card-img-top" alt="Sunglasses 2">
+                <div class="card-body">
+                    <h5 class="card-title">Retro Rounds</h5>
+                    <p class="card-text">$39.99</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 fade-in">
+            <div class="card shadow">
+                <img src="~/images/sunglasses3.jpg" class="card-img-top" alt="Sunglasses 3">
+                <div class="card-body">
+                    <h5 class="card-title">Sporty Wraps</h5>
+                    <p class="card-text">$59.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container text-center my-5 fade-in">
+    <h2 class="fw-bold">Why Choose Us?</h2>
+    <p class="lead">High-quality lenses, stylish frames, and unbeatable prices.</p>
+    <a href="/Home/About" class="btn btn-outline-dark mt-3 btn-animated">Learn More</a>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let fadeElements = document.querySelectorAll(".fade-in");
+        let observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        }, { threshold: 0.3 });
+
+        fadeElements.forEach(el => observer.observe(el));
+
+        // Ensure animations work when navigating back to home page
+        let heroImage = document.getElementById("hero-image");
+        if (heroImage.complete) {
+            heroImage.classList.add("loaded");
+        } else {
+            heroImage.addEventListener("load", function () {
+                heroImage.classList.add("loaded");
+            });
+        }
+    });
+</script>

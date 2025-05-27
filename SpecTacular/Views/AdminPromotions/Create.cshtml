@@ -1,0 +1,49 @@
+﻿@model SpecTacular.Models.Promotion
+
+@{
+    ViewData["Title"] = "Create Promotion";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Explicitly specify the layout
+}
+
+<h2>Create Promotion</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DiscountPercentage" class="control-label"></label>
+        <input asp-for="DiscountPercentage" class="form-control" type="number" step="0.1" />
+        <span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MinPurchaseAmount" class="control-label"></label>
+        <input asp-for="MinPurchaseAmount" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="MinPurchaseAmount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ValidUntil" class="control-label"></label>
+        <input asp-for="ValidUntil" class="form-control" type="date" />
+        <span asp-validation-for="ValidUntil" class="text-danger"></span>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-action="Dashboard" asp-controller="Admin" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

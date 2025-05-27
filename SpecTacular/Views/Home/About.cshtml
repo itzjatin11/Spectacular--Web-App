@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | SpecTacular</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #1d3557;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+            /* Soft Blue Glow Behind Text */
+            .hero::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 400px;
+                height: 200px;
+                background: radial-gradient(circle, rgba(0, 123, 255, 0.3), transparent);
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                z-index: 1;
+                filter: blur(40px);
+            }
+
+            .hero h1 {
+                font-size: 3.5rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: #0077b6;
+                position: relative;
+                z-index: 5;
+            }
+
+        .sub-heading {
+            font-size: 1.6rem;
+            opacity: 0.8;
+            font-weight: 300;
+            position: relative;
+            z-index: 5;
+            color: #0a2472;
+        }
+
+        /* Glassmorphism Floating Box */
+        .floating-box {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 250px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            z-index: 2;
+        }
+
+        /* Floating Soft Circles */
+        .circle {
+            position: absolute;
+            background: rgba(173, 216, 230, 0.5);
+            border-radius: 50%;
+        }
+
+            .circle.one {
+                width: 100px;
+                height: 100px;
+                top: 10%;
+                left: 10%;
+            }
+
+            .circle.two {
+                width: 160px;
+                height: 160px;
+                top: 60%;
+                right: 15%;
+                background: rgba(0, 123, 255, 0.3);
+            }
+
+            .circle.three {
+                width: 120px;
+                height: 120px;
+                bottom: 10%;
+                left: 40%;
+                background: rgba(100, 149, 237, 0.4);
+            }
+
+        /* Content Section */
+        .content {
+            text-align: center;
+            max-width: 800px;
+            margin: 60px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.2s ease-in-out;
+            position: relative;
+            z-index: 10;
+        }
+
+            .content:hover {
+                transform: scale(1.02);
+            }
+
+            .content h2 {
+                font-size: 2rem;
+                color: #0077b6;
+                margin-bottom: 15px;
+            }
+
+            .content p {
+                font-size: 1.2rem;
+                line-height: 1.6;
+            }
+    </style>
+</head>
+<body>
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+
+    <div class="floating-box"></div>
+
+    <div class="hero">
+        <h1 data-aos="fade-up">Welcome to SpecTacular</h1>
+        <p data-aos="fade-up" data-aos-delay="200" class="sub-heading">Where vision meets style and innovation.</p>
+    </div>
+
+    <div class="content" data-aos="fade-up" data-aos-delay="300">
+        <h2>Our Story</h2>
+        <p>At SpecTacular, we redefine eyewear. Our journey started with a mission—to blend style, comfort, and innovation into every frame. Our carefully crafted specs are designed for visionaries like you.</p>
+    </div>
+
+    <div class="content" data-aos="fade-up" data-aos-delay="400">
+        <h2>Why Choose Us?</h2>
+        <p>✔️ Premium Quality Materials</p>
+        <p>✔️ Trendy & Durable Designs</p>
+        <p>✔️ 100% UV Protection</p>
+        <p>✔️ Hassle-Free Returns</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

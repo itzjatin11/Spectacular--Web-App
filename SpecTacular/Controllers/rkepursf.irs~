@@ -1,0 +1,24 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SpecTacular.Data;
+
+namespace YourAppName.Controllers
+{
+    public class PromotionsController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public PromotionsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var promotions = await _context.Promotions
+                .Where(p => p.IsActive && (p.ValidUntil == null || p.ValidUntil >= DateTime.Today))
+                .ToListAsync();
+            return View(promotions);
+        }
+    }
+}

@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SpecTacular.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SpecTacular.5xut4gghtf.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\2020ad8b-ffa1-4565-bfc4-0d96d79b9ac3.jpg",
+      "PackagePath": "staticwebassets\\images\\2020ad8b-ffa1-4565-bfc4-0d96d79b9ac3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\472bf248-a956-45f7-9d96-19d523bb9216.jpg",
+      "PackagePath": "staticwebassets\\images\\472bf248-a956-45f7-9d96-19d523bb9216.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\47edae31-e1a6-44b3-b4c7-a9014ca77ce3.png",
+      "PackagePath": "staticwebassets\\images\\47edae31-e1a6-44b3-b4c7-a9014ca77ce3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\795aafe5-c678-4db6-b0d3-7eef9204db59.jpg",
+      "PackagePath": "staticwebassets\\images\\795aafe5-c678-4db6-b0d3-7eef9204db59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\797837ea-eb50-4acf-a014-82ff294eaca6.jpg",
+      "PackagePath": "staticwebassets\\images\\797837ea-eb50-4acf-a014-82ff294eaca6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\aviators.jpg",
+      "PackagePath": "staticwebassets\\images\\aviators.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\eyeglass1.jpg",
+      "PackagePath": "staticwebassets\\images\\eyeglass1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\eyeglass2.jpg",
+      "PackagePath": "staticwebassets\\images\\eyeglass2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\eyeglass3.jpg",
+      "PackagePath": "staticwebassets\\images\\eyeglass3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\eyeglass4.jpg",
+      "PackagePath": "staticwebassets\\images\\eyeglass4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\screenglass1.jpg",
+      "PackagePath": "staticwebassets\\images\\screenglass1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\screenglass2.jpg",
+      "PackagePath": "staticwebassets\\images\\screenglass2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\screenglass3.jpg",
+      "PackagePath": "staticwebassets\\images\\screenglass3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\screenglass4.jpg",
+      "PackagePath": "staticwebassets\\images\\screenglass4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglass.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglass1.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglass1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglass2.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglass2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglass3.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglass3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglass4.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglass4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglasses2.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglasses2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\images\\sunglasses3.jpg",
+      "PackagePath": "staticwebassets\\images\\sunglasses3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\js\\products.js",
+      "PackagePath": "staticwebassets\\js\\products.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SpecTacular.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SpecTacular.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SpecTacular.props",
+      "PackagePath": "build\\SpecTacular.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SpecTacular.props",
+      "PackagePath": "buildMultiTargeting\\SpecTacular.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SpecTacular.props",
+      "PackagePath": "buildTransitive\\SpecTacular.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

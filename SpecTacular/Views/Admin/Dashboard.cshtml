@@ -1,0 +1,336 @@
+﻿@model Tuple<List<SpecTacular.Models.User>, List<SpecTacular.Models.Product>, List<SpecTacular.Models.Promotion>>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Use the layout
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .card:hover {
+                transform: scale(1.02);
+            }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        .btn {
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+            .btn:hover {
+                transform: scale(1.1);
+            }
+
+        img {
+            border-radius: 5px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            img:hover {
+                transform: scale(1.2);
+            }
+
+        .toggle-view {
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+            .toggle-view:hover {
+                color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+
+        <h2 class="text-center mb-4">Admin Panel</h2>
+
+        <!-- Display Success Message -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+
+        <!-- Live Search for Users -->
+        <div class="mb-3 d-flex justify-content-end">
+            <input type="text" id="liveSearch" class="form-control w-25 me-2" placeholder="Search users..." />
+        </div>
+
+        <!-- User Management -->
+        <div class="card mb-4">
+            <div class="card-header fw-bold">User Management</div>
+            <div class="card-body">
+                <table class="table table-bordered" id="userTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model.Item1)
+                        {
+                            <tr>
+                                <td>@user.Id</td>
+                                <td>@user.Name</td>
+                                <td>@user.Email</td>
+                                <td>@user.PasswordHash</td>
+                                <td>
+                                    <a href="@Url.Action("EditUser", "Admin", new { id = user.Id })" class="btn btn-warning btn-sm">Edit</a>
+                                    <a href="@Url.Action("DeleteUser", "Admin", new { id = user.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="@Url.Action("AddCustomer", "Admin")" class="btn btn-primary mb-3">Add User</a>
+            </div>
+        </div>
+
+        <!-- Promotion Management -->
+        <div class="card mb-4">
+            <div class="card-header fw-bold">Promotion Management</div>
+            <div class="card-body">
+                <table class="table table-bordered" id="promotionTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Discount (%)</th>
+                            <th>Min Purchase ($)</th>
+                            <th>Valid Until</th>
+                            <th>Active</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var promo in Model.Item3)
+                        {
+                            <tr>
+                                <td>@promo.Id</td>
+                                <td>@promo.Title</td>
+                                <td>@promo.DiscountPercentage</td>
+                                <td>@promo.MinPurchaseAmount</td>
+                                <td>@(promo.ValidUntil?.ToString("d MMM yyyy") ?? "No Expiry")</td>
+                                <td>@(promo.IsActive ? "Yes" : "No")</td>
+                                <td>
+                                    <a href="@Url.Action("Edit", "AdminPromotions", new { id = promo.Id })" class="btn btn-warning btn-sm">Edit</a>
+                                    <a href="@Url.Action("Delete", "AdminPromotions", new { id = promo.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="@Url.Action("Create", "AdminPromotions")" class="btn btn-primary mb-3">Add Promotion</a>
+            </div>
+        </div>
+
+        <!-- Product Search -->
+        <div class="row g-2 mb-3">
+            <div class="col-md-3">
+                <input type="text" id="searchTerm" class="form-control" placeholder="Search by name..." />
+            </div>
+            <div class="col-md-3">
+                <select id="category" class="form-select">
+                    <option value="">All Categories</option>
+                    <option value="Eyeglass">Eyeglass</option>
+                    <option value="Sunglass">Sunglass</option>
+                    <option value="Screenglass">Screenglass</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <input type="date" id="dateAdded" class="form-control" />
+            </div>
+            <div class="col-md-3">
+                <button type="button" id="searchButton" class="btn btn-primary w-100">Search</button>
+            </div>
+        </div>
+
+        <!-- Product Management -->
+        <div class="card">
+            <div class="card-header fw-bold d-flex justify-content-between">
+                <span>Product Management</span>
+                <span class="toggle-view" onclick="toggleView()">🔄 Switch View</span>
+            </div>
+            <div class="card-body">
+                <!-- List View -->
+                <div id="listView">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Image</th>
+                                <th>Category</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="productTableBody">
+                            @foreach (var product in Model.Item2)
+                            {
+                                <tr>
+                                    <td>@product.Id</td>
+                                    <td>@product.Name</td>
+                                    <td>$@product.Price</td>
+                                    <td><img src="@product.ImageUrl" width="50" height="50" /></td>
+                                    <td>@product.Category</td>
+                                    <td>
+                                        <a href="@Url.Action("EditProduct", "Admin", new { id = product.Id })" class="btn btn-warning btn-sm">Edit</a>
+                                        <a href="@Url.Action("DeleteProduct", "Admin", new { id = product.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Grid View -->
+                <div id="gridView" class="row d-none"></div>
+
+                <a href="@Url.Action("AddProduct", "Admin")" class="btn btn-primary mt-2">Add Product</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentView = 'list';
+
+        function renderProducts(data) {
+            // Render List View
+            $('#productTableBody').empty();
+            if (data.length === 0) {
+                $('#productTableBody').append('<tr><td colspan="6">No products found.</td></tr>');
+            } else {
+                $.each(data, function (index, product) {
+                    const row = `
+                        <tr>
+                            <td>${product.id}</td>
+                            <td>${product.name}</td>
+                            <td>$${product.price}</td>
+                            <td><img src="${product.imageUrl}" width="50" height="50" /></td>
+                            <td>${product.category}</td>
+                            <td>
+                                <a href="/Admin/EditProduct/${product.id}" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="/Admin/DeleteProduct/${product.id}" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                            </td>
+                        </tr>`;
+                    $('#productTableBody').append(row);
+                });
+            }
+
+            // Render Grid View
+            $('#gridView').empty();
+            if (data.length === 0) {
+                $('#gridView').append('<div class="text-center">No products found.</div>');
+            } else {
+                $.each(data, function (index, product) {
+                    const card = `
+                        <div class="col-md-4 mb-3">
+                            <div class="card p-3">
+                                <img src="${product.imageUrl}" class="card-img-top" alt="Product Image" height="150">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">${product.name}</h5>
+                                    <p class="card-text">Price: $${product.price}</p>
+                                    <p class="card-text"><small class="text-muted">Category: ${product.category}</small></p>
+                                    <a href="/Admin/EditProduct/${product.id}" class="btn btn-warning btn-sm">Edit</a>
+                                    <a href="/Admin/DeleteProduct/${product.id}" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+                                </div>
+                            </div>
+                        </div>`;
+                    $('#gridView').append(card);
+                });
+            }
+        }
+
+        function fetchFilteredProducts() {
+            const searchTerm = $('#searchTerm').val();
+            const category = $('#category').val();
+            const dateAdded = $('#dateAdded').val();
+
+            const isFiltered = searchTerm || dateAdded || (category && category !== "All Categories");
+
+            if (!isFiltered) {
+                location.reload();
+                return;
+            }
+
+            $.ajax({
+                url: '@Url.Action("Dashboard", "Admin")',
+                type: 'GET',
+                data: {
+                    searchTerm: searchTerm,
+                    category: category,
+                    dateAdded: dateAdded
+                },
+                success: function (data) {
+                    renderProducts(data);
+                },
+                error: function () {
+                    alert('An error occurred while fetching the products.');
+                }
+            });
+        }
+
+        $('#searchButton').click(function () {
+            fetchFilteredProducts();
+        });
+
+        function toggleView() {
+            if (currentView === 'list') {
+                $('#listView').addClass('d-none');
+                $('#gridView').removeClass('d-none');
+                currentView = 'grid';
+            } else {
+                $('#gridView').addClass('d-none');
+                $('#listView').removeClass('d-none');
+                currentView = 'list';
+            }
+
+            fetchFilteredProducts();
+        }
+
+        $('#liveSearch').on("keyup", function () {
+            const value = $(this).val().toLowerCase();
+            $("#userTable tbody tr").filter(function () {
+                const nameColumn = $(this).find("td:eq(1)").text().toLowerCase();
+                $(this).toggle(nameColumn.indexOf(value) > -1);
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

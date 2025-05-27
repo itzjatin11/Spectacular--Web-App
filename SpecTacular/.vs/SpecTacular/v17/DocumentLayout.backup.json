@@ -1,0 +1,369 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\product\\eyeglass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\product\\eyeglass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\controllers\\adminpromotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:controllers\\adminpromotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\adminpromotions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\adminpromotions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\adminpromotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\adminpromotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\adminpromotions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\adminpromotions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\views\\adminpromotions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:views\\adminpromotions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|c:\\users\\admin\\onedrive - auckland institute of studies\\desktop\\ais courses\\web application\\assignment-2\\spectacular (1)\\spectacular (1)\\spectacular\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD1402D-100B-42A7-B516-D4E451646211}|SpecTacular.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAuwGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T03:10:23.7Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T03:44:17.457Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T03:44:03.498Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwKoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T03:51:53.736Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Promotions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Promotions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Promotions\\Index.cshtml",
+              "RelativeToolTip": "Views\\Promotions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T04:06:26.127Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Home\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Home\\Cart.cshtml",
+              "RelativeToolTip": "Views\\Home\\Cart.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwCwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T04:13:25.43Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAACYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T05:34:23.631Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminPromotionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\AdminPromotionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminPromotionsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\AdminPromotionsController.cs",
+              "RelativeToolTip": "Controllers\\AdminPromotionsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T04:38:18.15Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T05:31:31.682Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T05:28:33.324Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T12:14:09.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cart.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\js\\cart.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\cart.js",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\wwwroot\\js\\cart.js",
+              "RelativeToolTip": "wwwroot\\js\\cart.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-13T08:23:38.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Eyeglass.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Product\\Eyeglass.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Eyeglass.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\Product\\Eyeglass.cshtml",
+              "RelativeToolTip": "Views\\Product\\Eyeglass.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T08:23:17.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPromotions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdminPromotions\\Create.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T04:41:13.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PromotionsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "Controllers\\PromotionsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T04:44:55.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPromotions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminPromotions\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T04:39:47.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPromotions\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdminPromotions\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T04:41:46.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPromotions\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Views\\AdminPromotions\\Delete.cshtml",
+              "RelativeToolTip": "Views\\AdminPromotions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T04:42:42.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Models\\Promotion.cs",
+              "RelativeDocumentMoniker": "Models\\Promotion.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Models\\Promotion.cs",
+              "RelativeToolTip": "Models\\Promotion.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T04:31:26.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive - Auckland Institute of Studies\\Desktop\\AIS Courses\\Web Application\\Assignment-2\\SpecTacular (1)\\SpecTacular (1)\\SpecTacular\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T04:32:02.823Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1243,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

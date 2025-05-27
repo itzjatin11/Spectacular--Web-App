@@ -1,0 +1,40 @@
+﻿@model SpecTacular.Models.User
+
+@{
+    ViewData["Title"] = "Add Customer";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Add Customer</h2>
+
+    <div class="card p-4 shadow-sm">
+        <form asp-action="AddCustomer" method="post" autocomplete="off">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control" value="" required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control" value="" required />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PasswordHash" class="form-label">Password</label>
+                <input asp-for="PasswordHash" type="password" class="form-control" value="" required />
+            </div>
+
+            <button type="submit" class="btn btn-success">Add Customer</button>
+            <a asp-action="Dashboard" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Ensure all fields are cleared when the page loads
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector('input[name="Name"]').value = "";
+        document.querySelector('input[name="Email"]').value = "";
+        document.querySelector('input[name="PasswordHash"]').value = "";
+    });
+</script>

@@ -1,0 +1,8 @@
+System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at SpecTacular.Controllers.HomeController.Contact(String Name, String Email, String Message) in C:\Users\Admin\OneDrive - Auckland Institute of Studies\Desktop\Web Application\SpecTacular (2)\SpecTacular (1)\SpecTacular\Controllers\HomeController.cs:line 40

@@ -1,0 +1,15 @@
+﻿@model List<SpecTacular.Models.User>
+
+@foreach (var user in Model)
+{
+    <tr>
+        <td>@user.Id</td>
+        <td>@user.Name</td>
+        <td>@user.Email</td>
+        <td>@user.PasswordHash</td>
+        <td>
+            <a href="@Url.Action("EditUser", new { id = user.Id })" class="btn btn-warning btn-sm">Edit</a>
+            <a href="@Url.Action("DeleteUser", new { id = user.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
+        </td>
+    </tr>
+}

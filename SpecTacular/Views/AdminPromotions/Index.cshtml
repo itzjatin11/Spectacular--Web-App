@@ -1,0 +1,37 @@
+﻿@model List<SpecTacular.Models.Promotion>
+
+@{
+    ViewData["Title"] = "Manage Promotions";
+}
+
+<h2>Manage Promotions</h2>
+<a asp-action="Create" class="btn btn-primary mb-3">Create New Promotion</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Discount (%)</th>
+            <th>Min Purchase ($)</th>
+            <th>Valid Until</th>
+            <th>Active</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var promo in Model)
+        {
+            <tr>
+                <td>@promo.Title</td>
+                <td>@promo.DiscountPercentage</td>
+                <td>@promo.MinPurchaseAmount</td>
+                <td>@(promo.ValidUntil?.ToString("d MMM yyyy") ?? "No Expiry")</td>
+                <td>@(promo.IsActive ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@promo.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@promo.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
